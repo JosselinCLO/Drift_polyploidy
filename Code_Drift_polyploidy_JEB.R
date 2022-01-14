@@ -1,3 +1,4 @@
+# The fitness of diploids and tetraploids is set manually, in L7 of this code.
 
 reproduction <- function(Diploid_ind, Tetraploid_ind, h, L, Big_U, selfing_rate, N){
   
@@ -292,14 +293,6 @@ count_tetraploids <- function(Tetraploid_ind, L,N){
   
   return(nb_tetra)
 }
-
-#L=5
-#mut_loc=0.05
-#N=10
-#selfing_rate=0
-#h=0.5
-#Nb_gen = 100
-#Nb_rep = 15
 
 simulation_model <-function(L, mut_loc, N, Nb_gen, selfing_rate, h, Nb_rep){
   
